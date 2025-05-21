@@ -1,0 +1,64 @@
+    Now improve and expand the system with the following:
+    1. Smart UI Improvements
+
+        Add confirmation modals for submitting reviews or tips
+
+        Add loading indicators for all async actions (login, post, upload)
+
+        Display real-time "Like" count updates without refresh
+
+        Add hover effects and micro-animations for buttons and cards
+
+    2. Mobile & Responsive Design
+
+        Make the UI fully responsive using Tailwind CSS
+
+        Add a collapsible mobile navbar
+
+        Ensure course pages, login/register, and review forms display well on mobile
+
+    3. Search & Filter Features
+
+        Add a global search bar to find courses by name, professor, or code
+
+        Implement filter options (e.g., difficulty, rating, number of tips)
+
+        Display a message when no search results are found
+
+    4. User Experience Upgrades
+
+        Redirect users to the course page after posting a review or tip
+
+        Show error messages when login or review submission fails
+
+        Prevent file uploads > 10MB and show a warning if exceeded
+
+    5. Future Integration Prep
+
+        Prepare backend endpoints and frontend placeholders for:
+
+            AI-generated course summaries
+
+            Bookmarking courses
+
+            Admin panel with basic moderation tools
+
+    6. Clean Code & Structure
+
+        Add consistent layout wrapper with header/footer
+
+        Organize components: components/, pages/, api/, utils/
+
+        Use reusable Card, Modal, and Form components
+
+    ✅ Final note: Keep the design clean and modern using this color palette:
+
+        Primary: #10B981 (Emerald)
+
+        Background: #F3F4F6
+
+        Text: #111827
+
+        Accent: #0EA5E9 (Blue)
+
+        Danger: #F43F5E

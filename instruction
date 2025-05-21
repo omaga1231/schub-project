@@ -1,0 +1,59 @@
+    Build a professional, scalable, and responsive web platform using React (frontend) and Node.js with Express and MongoDB (backend). This platform is designed for college students to review and share course experiences, study tips, and preparation resources across multiple colleges.
+    🔧 Functional Requirements:
+
+        Course Catalog: Users can browse and filter courses by subject, professor, difficulty, and college.
+
+        Course Pages: Each course has reviews, ratings (1–5 stars), and a section for study tips and file uploads (PDFs, images, links).
+
+        Authentication: Secure login/register with email & password (optionally ready for OAuth integration like Google).
+
+        Search Bar: Type-ahead search by course name or code.
+
+        Admin Panel: (Optional) Admins can approve, edit, or delete reviews.
+
+        Homepage: Trending courses, top-rated tips, and call-to-action for new users.
+
+    💻 Tech Stack:
+
+        Frontend: React + Tailwind CSS + ShadCN/UI or Headless UI for components
+
+        Backend: Node.js + Express
+
+        Database: MongoDB (suggest using MongoDB Atlas)
+
+        Auth: JWT-based authentication (optionally Firebase Auth)
+
+        Deployment: Frontend on Vercel, backend on Render/Railway
+
+    🎨 GUI & Design System:
+
+    Use a clean and student-friendly interface with responsive layouts.
+    Stick to the following color palette:
+
+        Primary (Emerald): #10B981 – for buttons and highlights
+
+        Dark Accent: #047857 – for hover states
+
+        Background: #F3F4F6 – soft gray for layout
+
+        Text: #111827 (primary), #6B7280 (secondary/muted)
+
+        Surface: #FFFFFF – cards and content areas
+
+        Danger/Error: #F43F5E – for invalid input alerts
+
+        Info: #0EA5E9 – tooltips, notifications
+
+    📦 Code Quality & Structure:
+
+        Organize the project using a modular folder structure (e.g., components/, routes/, pages/, models/)
+
+        Use React Router for navigation
+
+        Include placeholder data where needed
+
+        Setup Tailwind with custom theme in tailwind.config.js
+
+        Include a README file explaining how to run and deploy the app
+
+    Goal: Make the platform modern, intuitive, and ready to scale across colleges. Prioritize clean UI, good UX, and maintainable codebase. Use mock data or static assets where real user data is not yet available but clarify where they are used for easy delete later on.
